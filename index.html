@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Global Impact Vision inspires humanity, leadership, motivation, education and innovation for a better world.">
+  <title>Global Impact Vision | Create Impact</title>
+
+  <style>
+    :root {
+      --navy: #102b46;
+      --teal: #168b85;
+      --cream: #faf7ef;
+      --gold: #e8b75b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--cream);
+      color: #27384a;
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .brand {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .brand span { color: var(--gold); }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover { color: var(--gold); }
+
+    .hero {
+      min-height: 560px;
+      padding: 90px 7%;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(125deg, #102b46, #176e70);
+      color: white;
+    }
+
+    .hero-content { max-width: 780px; }
+
+    .eyebrow {
+      color: var(--gold);
+      letter-spacing: 3px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 4.7rem);
+      line-height: 1.13;
+      margin: 22px 0;
+    }
+
+    .hero p {
+      max-width: 650px;
+      font-size: 1.1rem;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 26px;
+    }
+
+    section { padding: 75px 7%; }
+
+    .heading {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .heading h2 {
+      color: var(--navy);
+      font-size: 2.1rem;
+    }
+
+    .heading p {
+      max-width: 700px;
+      margin: 10px auto;
+    }
+
+    .intro {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.08rem;
+    }
+
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 27px;
+      border-radius: 12px;
+      border-bottom: 4px solid var(--teal);
+      box-shadow: 0 5px 20px #102b4610;
+    }
+
+    .icon { font-size: 2.2rem; }
+
+    .card h3 {
+      color: var(--navy);
+      margin: 10px 0;
+    }
+
+    .vision {
+      background: #e9f1ed;
+      text-align: center;
+    }
+
+    .vision p {
+      max-width: 800px;
+      margin: 14px auto;
+    }
+
+    .quote {
+      background: var(--navy);
+      color: white;
+      text-align: center;
+      padding: 65px 7%;
+    }
+
+    .quote blockquote {
+      max-width: 800px;
+      margin: auto;
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      font-weight: bold;
+    }
+
+    .quote p {
+      color: var(--gold);
+      margin-top: 15px;
+    }
+
+    .contact { text-align: center; }
+
+    footer {
+      background: #0b1d30;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 600px) {
+      header { justify-content: center; }
+      nav { justify-content: center; gap: 12px; }
+      .hero { padding: 65px 6%; }
+      section { padding: 55px 6%; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">GLOBAL <span>IMPACT</span> VISION</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#pillars">Our Pillars</a>
+      <a href="#vision">Our Vision</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow">THINK GLOBALLY. ACT PURPOSEFULLY.</div>
+
+        <h1>
+          See the World.<br>
+          Create Impact.<br>
+          Build Tomorrow.
+        </h1>
+
+        <p>
+          A platform for dreamers, young leaders and problem-solvers
+          who believe that ideas, knowledge and collective action
+          can build a better future for humanity.
+        </p>
+
+        <a class="button" href="#pillars">Explore Our Mission →</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="heading">
+        <h2>Welcome to Global Impact Vision</h2>
+      </div>
+
+      <div class="intro">
+        <p>
+          We believe every person has the potential to make a difference.
+          Our platform promotes positive change through education,
+          leadership, motivation, creativity and practical solutions
+          to the challenges facing our world.
+        </p>
+      </div>
+    </section>
+
+    <section id="pillars">
+      <div class="heading">
+        <h2>Our Pillars of Impact</h2>
+        <p>Building a better world starts with what we learn,
+          believe and do together.</p>
+      </div>
+
+      <div class="pillars">
+        <article class="card">
+          <div class="icon">🌍</div>
+          <h3>Humanity</h3>
+          <p>Promoting compassion, dignity, equality and action
+            to improve people's lives.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🤝</div>
+          <h3>Leadership</h3>
+          <p>Inspiring responsible leaders who serve their
+            communities with integrity and purpose.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">💡</div>
+          <h3>Motivation</h3>
+          <p>Encouraging discipline, resilience and consistent
+            effort toward meaningful goals.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">📚</div>
+          <h3>Education</h3>
+          <p>Sharing knowledge and learning opportunities that
+            expand possibilities for young people.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🔬</div>
+          <h3>Innovation</h3>
+          <p>Encouraging creative thinking and practical solutions
+            to local and global challenges.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🌱</div>
+          <h3>Sustainable Development</h3>
+          <p>Supporting environmental responsibility and a
+            future where communities can thrive.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="vision" id="vision">
+      <div class="heading">
+        <h2>Our Vision for Tomorrow</h2>
+      </div>
+
+      <p>
+        A world where young people are empowered to lead,
+        communities work together, knowledge creates opportunity
+        and innovation serves humanity.
+      </p>
+
+      <p>
+        We turn awareness into action, ideas into solutions
+        and ambition into meaningful contributions to society.
+      </p>
+    </section>
+
+    <section class="quote">
+      <blockquote>
+        "You do not have to change the whole world at once.
+        Start by making a meaningful difference where you are."
+      </blockquote>
+      <p>GLOBAL IMPACT VISION</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h2>Be Part of the Change</h2>
+        <p>Have an idea, a story or a solution that could make
+          a difference? Join us in creating positive impact.</p>
+      </div>
+      <p>Contact: Your official email address will go here.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Global Impact Vision. All rights reserved.</p>
+    <p>See the World. Create Impact. Build Tomorrow.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
